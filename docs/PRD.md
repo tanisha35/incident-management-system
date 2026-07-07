@@ -44,3 +44,29 @@ The support engineer is responsible for managing and resolving assigned incident
 
 The administrator has complete control over the system. Administrators can manage users, assign tickets to support engineers, monitor all incidents, update ticket details, and oversee the overall incident management workflow.
 
+## Project Scope
+
+The first version (MVP) of the Incident Management System will focus on implementing the core functionalities required to manage incidents efficiently. The application will include:
+
+- User registration, login, and JWT-based authentication.
+- Role-based access control for Customers, Support Engineers, and Administrators.
+- Ticket creation, viewing, updating, and deletion.
+- Ticket assignment to support engineers.
+- Ticket status and priority management.
+- Comment management for incident discussions.
+- Dashboard displaying ticket statistics.
+- Search, filtering, and pagination.
+- Input validation and centralized error handling.
+- RESTful API documentation using Swagger.
+- Deployment of the application for public access.
+
+The following features are intentionally excluded from the first version and may be considered for future enhancements:
+
+- Email notifications
+- File attachments
+- Real-time notifications using WebSockets
+- Redis caching
+- Docker containerization
+- CI/CD pipeline
+- SLA management
+- Unit and integration testing
