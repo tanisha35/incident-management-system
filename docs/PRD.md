@@ -70,3 +70,74 @@ The following features are intentionally excluded from the first version and may
 - CI/CD pipeline
 - SLA management
 - Unit and integration testing
+
+## Functional Requirements
+
+The Incident Management System shall provide the following functionalities:
+
+### Authentication
+
+- Users shall be able to register using their name, email address, and password.
+- Registered users shall be able to log in securely using their credentials.
+- The system shall authenticate users using JSON Web Tokens (JWT).
+- Users shall be able to log out securely.
+
+### User Management
+
+- The system shall support three user roles: Customer, Support Engineer, and Administrator.
+- Users shall be able to view and update their profile information.
+- Administrators shall be able to manage user accounts.
+
+### Ticket Management
+
+- Customers shall be able to create support tickets.
+- Users shall be able to view ticket details based on their access permissions.
+- Customers shall be able to update or delete their own tickets before they are assigned.
+- Administrators shall be able to assign tickets to support engineers.
+- Support engineers shall be able to update ticket status and priority.
+- The system shall maintain the complete lifecycle of each ticket.
+
+### Comments
+
+- Authorized users shall be able to add comments to tickets.
+- Users shall be able to view all comments associated with a ticket.
+
+### Dashboard
+
+- The system shall display the total number of open, closed, and assigned tickets.
+- The dashboard shall provide quick insights into ticket statistics.
+
+### Search and Filtering
+
+- Users shall be able to search tickets by title.
+- Users shall be able to filter tickets based on status and priority.
+- The system shall support pagination for large numbers of tickets.
+
+## Non-Functional Requirements
+
+The Incident Management System shall satisfy the following quality requirements:
+
+- The application shall provide secure authentication using JSON Web Tokens (JWT).
+- User passwords shall be securely hashed before being stored in the database.
+- The system shall implement role-based authorization to restrict access to protected resources.
+- The application shall validate user input to prevent invalid or malicious data.
+- The system shall provide centralized error handling with meaningful error responses.
+- The application shall maintain a modular and scalable architecture for future enhancements.
+- The REST APIs shall follow consistent naming conventions and response formats.
+- The application shall support responsive user interfaces across different screen sizes.
+- API documentation shall be available using Swagger.
+- The application shall be deployed and accessible through a public URL.
+
+## Success Criteria
+
+The Incident Management System will be considered successful if it achieves the following outcomes:
+
+- Users can successfully register, log in, and securely access the application.
+- Customers can create, view, update, and track their support tickets.
+- Support engineers can manage assigned tickets, update their status, and resolve incidents.
+- Administrators can manage users and assign tickets efficiently.
+- Role-based access control is enforced across all protected resources.
+- The application provides search, filtering, and pagination for efficient ticket management.
+- The backend APIs are fully documented using Swagger.
+- The application is successfully deployed and accessible through a public URL.
+- The project follows a clean, modular, and maintainable architecture.
