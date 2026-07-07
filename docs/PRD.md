@@ -30,3 +30,17 @@ The primary objectives of the Incident Management System are:
 - Improve the efficiency and transparency of the incident resolution process.
 - Demonstrate production-inspired backend architecture, RESTful API development, database design, and modern web development practices.
 
+## Target Users
+
+### Customer
+
+The customer is the end user who reports incidents or issues through the system. Customers can create support tickets, view the status of their own tickets, add comments, and track the progress of incident resolution.
+
+### Support Engineer
+
+The support engineer is responsible for managing and resolving assigned incidents. Support engineers can view assigned tickets, update ticket status and priority, add comments, and resolve incidents.
+
+### Administrator
+
+The administrator has complete control over the system. Administrators can manage users, assign tickets to support engineers, monitor all incidents, update ticket details, and oversee the overall incident management workflow.
+
